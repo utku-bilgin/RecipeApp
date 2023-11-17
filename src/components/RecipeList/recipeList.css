@@ -1,0 +1,26 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.recipe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 144px;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: rgb(253, 29, 29);
+  background: radial-gradient(
+    circle,
+    rgba(253, 29, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}

@@ -1,0 +1,37 @@
+.card {
+  padding: 20px;
+  width: 300px;
+  height: 460px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 16px;
+  gap: 10px;
+  background-color: #dddddd;
+  position: relative;
+}
+
+.foodName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.foodAbout {
+  text-align: justify;
+}
+
+img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+.buttons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 4px;
+}
