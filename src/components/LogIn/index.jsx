@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import './Login.css'
 
-const LogIn = () => {
+const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -37,4 +37,4 @@ const LogIn = () => {
   );
 };
 
-export default LogIn;
+export default Login;
