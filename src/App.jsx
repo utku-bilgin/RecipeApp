@@ -5,7 +5,7 @@ import RecipeList from "./components/RecipeList/RecipeList.jsx";
 import AddRecipe from "./components/AddRecipe/AddRecipe.jsx";
 import axios from "axios";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./components/Login/index.jsx";
+import Login from "./components/Login";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
