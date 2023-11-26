@@ -5,7 +5,7 @@ import RecipeList from "./components/RecipeList/RecipeList.jsx";
 import AddRecipe from "./components/AddRecipe/AddRecipe.jsx";
 import axios from "axios";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LogIn from "./components/LogIn/LogIn.jsx";
+import Login from "./components/Login/index.jsx";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -78,7 +78,7 @@ function App() {
             <Route
               path="/login"
               element={
-                <LogIn />
+                <Login />
               }
             />
           </Routes>
