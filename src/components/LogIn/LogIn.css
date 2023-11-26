@@ -1,22 +1,22 @@
 .login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
 
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 10px;
-    height: 200px;
-    width: 164px;
-  }
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  height: 200px;
+  width: 600px;
+}
 
-  label {
-    display: flex;
-    flex-direction: column;
-  }
+label {
+  display: flex;
+  flex-direction: column;
+}

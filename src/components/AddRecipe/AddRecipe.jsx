@@ -59,7 +59,7 @@ const AddRecipe = ({ addRecipeToList, isLoading }) => {
 
   return (
     <div className='addRecipe'>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className='addRecipeForm'>
         <input
           className='formElement title'
           type='text'

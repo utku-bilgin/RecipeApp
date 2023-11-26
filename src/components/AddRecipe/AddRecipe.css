@@ -5,7 +5,7 @@
   height: 100vh;
 }
 
-form {
+.addRecipeForm {
   display: flex;
   justify-content: center;
   align-items: center;

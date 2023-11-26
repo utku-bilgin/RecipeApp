@@ -24,9 +24,14 @@ const LogIn = () => {
   return (
     <div className="login">
       <h2>Giriş Yap</h2>
-      <form onSubmit={handleLogin}>
-        <input type="email" placeholder="Enter your email" />
-        <input type="password"  />
+      <form onSubmit={handleLogin} className="loginForm">
+        <input type="email" placeholder="Enter your email" className="formElement" />
+        <input type="password" className="formElement" />
+        <button
+          type='submit'
+          className='formElement'>
+          Giriş
+        </button>
       </form>
     </div>
   );
